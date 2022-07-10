@@ -10,7 +10,7 @@ In this assignment, we are tasked with refactoring the  HTML and CSS code in ord
 
 Open the page at this github link: To run this project, copy the index.html code and style.css code, which can be found in the "Develop" folder, into a coding platform such as Virtual Studio Code. If you dont already have it, download the Live Server extension. Then save the file to your computer, and click "Go Live". A new window should open with the live webpage.
 
-## Usage
+## Screenshot of Webpage
 ![Horiseon](https://user-images.githubusercontent.com/108097509/178158688-3d7219ed-147e-4d28-b729-3ca6b7f86bb4.png)
 
 ## Credits

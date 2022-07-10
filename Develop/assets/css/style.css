@@ -1,13 +1,16 @@
+/* Wild card: styling for the whole page */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/* Background color for the body of the page */
 body {
     background-color: #d9dcd6;
 }
 
+/* Header and navigation bar styling */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 
@@ -16,19 +19,18 @@ body {
     color: #ffffff;
 }
 
-.text-right {
-    text-align: right;
-}
-
+/* Font sizing and display of the Horiseon header */
 .header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
+/* Changes color of 'seo' in Horiseon to a differnt color */
 .header h1 .seo {
     color: #d9dcd6;
 }
 
+/* Styling of the navigation bar */
 .header div {
     padding-top: 15px;
     margin-right: 20px;
@@ -38,24 +40,29 @@ body {
     font-size: 20px;
 }
 
+/* Positioning text in the navigation bar */
+.text-right {
+    text-align: right;
+}
+
+/* List style of the navigation bar */
 .header div ul {
     list-style-type: none;
 }
 
+/* How the navigation bar is displayed */
 .header div ul li {
     display: inline-block;
     margin-left: 25px;
 }
 
+/* Hyperlink styling */
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
-p {
-    font-size: 16px;
-}
-
+/* Positioning and sizing of the background image */
 .hero {
     height: 800px;
     width: 100%;
@@ -65,22 +72,97 @@ p {
     background-position: center;
 }
 
-.float-left {
-    float: left;
-    margin-right: 25px;
-}
-
-.float-right {
-    float: right;
-    margin-left: 25px;
-}
-
+/* Styling of the sections in the main content */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/* Font size for the paragraps in main */
+p {
+    font-size: 16px;
+}
+
+/* Main styling of SEO sesction */
+.search-engine-optimization {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 
+        'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/* Height of the SEO image */
+.search-engine-optimization img {
+    max-height: 200px;
+}
+
+/* Font size and height of section title */
+.search-engine-optimization h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/* Text positioning of SEO and marketing section */
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+/* Main styling of the online reputation management section */
+.online-reputation-management {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 
+        'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/* Height of the online reputation management image */
+.online-reputation-management img {
+    max-height: 200px;
+}
+
+/* Font size and height of online reputation management title */
+.online-reputation-management h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/* Text posittioning of Reputation Management section */
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+/* Main styling of the social media marketing section */
+.social-media-marketing {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 
+        'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/* Height of social media marketing image */
+.social-media-marketing img {
+    max-height: 200px;
+}
+
+/* Font size and height of social media marketing section title */
+.social-media-marketing h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/* Main stying of the side section of the page */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -93,111 +175,64 @@ p {
     background-color: #2589bd;
 }
 
+/* Margins and color of lead generation section */
 .benefit-lead {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
+/* Margin and postioning of lead generation title */
 .benefit-lead h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-.benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
+/* Sizing and positioning of lead generation image */
 .benefit-lead img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
+/* Margin and color of brand awareness section */
+.benefit-brand {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+/* Margin and positioning of brand awareness section title */
+.benefit-brand h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/* Sizing and positioning of brand awareness image */
 .benefit-brand img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
+/* Margin and color of cost management section */
+.benefit-cost {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+/* Margin and positioning of cost management section title */
+.benefit-cost h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/* Sizing and positioning of cost management section title */
 .benefit-cost img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-.search-engine-optimization {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 
-        'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 
-        'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 
-        'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.search-engine-optimization img {
-    max-height: 200px;
-}
-
-.online-reputation-management img {
-    max-height: 200px;
-}
-
-.social-media-marketing img {
-    max-height: 200px;
-}
-
-.search-engine-optimization h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
+/* Footer styling */
 .footer {
     padding: 30px;
     clear: both;
@@ -206,6 +241,7 @@ p {
     text-align: center;
 }
 
+/* Footer text size */
 .footer h2 {
     font-size: 20px;
 }
