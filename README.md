@@ -20,6 +20,10 @@ W3Schools: (https://www.w3schools.com/html/html5_semantic_elements.asp)
 MDN Web Docs: (https://developer.mozilla.org/en-US/docs/Glossary/Semantics)
 Stack Overflow: (https://stackoverflow.com/)
 
+## Deployed Webpage
+
+https://gbundakji.github.io/code-refactor/
+
 ## License
 
 MIT License
